@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>companyA - loginPage</title>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+</head>
+<body>
+    <p>Logining...</p>
+    <script>
+        const appid = '';
+
+        const queryToObject = (str) => {
+            if (!str) return {};
+            const arr = str.substring(1).split('&');
+            const result = {};
+            arr.forEach((a) => {
+                const i = a.split('=');
+                result[i[0]] = i[1];
+            });
+            return result;
+        };
+        const QO = queryToObject(window.location.search);
+
+        const doLogin = () => {
+            if (QO.state === 'AUTH') {
+                wx.miniProgram.navigateBack();
+                wx.miniProgram.postMessage({
+                    data: JSON.stringify({
+                        action: 'postData',
+                        data: {
+                            code,
+                            appID,
+                        }
+                    })
+                });
+                return;
+            }
+            const scope = 'snsapi_userinfo';
+            const redirectUrl = window.location.href;
+            const wxAuthUrl = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appid}&
+            redirect_uri=${redirectUrl}&response_type=code&scope=${scope}&state=AUTH#wechat_redirect`;
+            window.location.replace(wxAuthUrl);
+        }
+    </script>
+</body>
+</html>
