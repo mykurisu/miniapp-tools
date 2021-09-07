@@ -22,6 +22,4 @@ app.use(async (ctx) => {
     ctx.body = wxSession;
 })
 
-app.listen(6000, () => {
-    console.log(111);
-});
+app.listen(6000);
