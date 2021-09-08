@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "main/pages/index/index"
+  ],
+  "subpackages": [
+    {
+      "root": "pages/webview",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "pages/projectA",
+      "pages": [
+        "index/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Startkit",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

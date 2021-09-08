@@ -1,0 +1,3 @@
+<view>from: {{$$define.query.url}}</view>
+<view>to: {{$$define.route}}</view>
+<button bindtap="handleEmit">Emit</button>

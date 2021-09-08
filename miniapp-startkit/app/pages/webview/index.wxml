@@ -1,0 +1,1 @@
+<web-view src="{{$$define.query.url}}" bindload="handleLoad" binderror="handleError"></web-view>

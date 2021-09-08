@@ -1,0 +1,11 @@
+[
+    {
+        "projectName": "projectA",
+        "onwer": [
+            "mykurisu"
+        ],
+        "isMainPackage": false,
+        "path": "app/pages/projectA",
+        "git": "git@..."
+    }
+]
