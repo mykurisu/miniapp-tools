@@ -1,4 +1,5 @@
 const defaultPage = {
+    data: {},
     onLoad(options) {
         const $$define = {
             // some global data
@@ -23,7 +24,7 @@ const defaultPage = {
 
 const definePage = function (page) {
     const _page = Object.assign({}, page);
-    _page.data = _page.data ? Object.assign(_page.data, defaultPage.data) : defaultPage.data;
+    _page.data = Object.assign(_page.data ? _page.data : {}, defaultPage.data);
     _page.onLoad = function (options) {
         defaultPage.onLoad.call(this, options);
         if (page.onLoad) {
