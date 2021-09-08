@@ -8,7 +8,7 @@
 
 ### 小程序注册
 
-![iShot2021-08-12 23.11.08.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ce50d72b615e49a6b951f6d8b64bf483~tplv-k3u1fbpfcp-watermark.image)
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ce50d72b615e49a6b951f6d8b64bf483~tplv-k3u1fbpfcp-watermark.image)
 
 [微信小程序注册地址](https://mp.weixin.qq.com/)
 
@@ -16,9 +16,9 @@
 
 注册完成之后就可以获得我们的第一个重要道具 -- `APPID`
 
-![iShot2021-08-12 23.14.01.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/38d7d02658b145a4a137472891449713~tplv-k3u1fbpfcp-watermark.image)
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/38d7d02658b145a4a137472891449713~tplv-k3u1fbpfcp-watermark.image)
 
-![iShot2021-08-12 23.17.36.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33068e9a434e49e097d04e34cd5e0393~tplv-k3u1fbpfcp-watermark.image)
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33068e9a434e49e097d04e34cd5e0393~tplv-k3u1fbpfcp-watermark.image)
 
 ### 开发环境
 
@@ -26,11 +26,11 @@
 
 [微信开发者工具下载地址](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 
-![iShot2021-08-12 23.21.54.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9659d1f8762a458e892ac1009f6b403a~tplv-k3u1fbpfcp-watermark.image)
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9659d1f8762a458e892ac1009f6b403a~tplv-k3u1fbpfcp-watermark.image)
 
 点击界面中间最大的+号就可以进入小程序的新建界面。
 
-![iShot2021-08-12 23.22.27.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ebdd87b649e04a269766e8f81a076dee~tplv-k3u1fbpfcp-watermark.image)
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ebdd87b649e04a269766e8f81a076dee~tplv-k3u1fbpfcp-watermark.image)
 
 在上图的箭头处填上我们刚刚申请的小程序APPID即可，然后会自动生成一个内置官方模板的小程序。
 
