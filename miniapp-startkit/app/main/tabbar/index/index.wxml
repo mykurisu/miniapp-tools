@@ -1,3 +1,0 @@
-<view style="padding: 30rpx">{{$$define.route}}</view>
-
-<button bindtap="handleBtnClick">click me</button>

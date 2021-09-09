@@ -1,7 +1,6 @@
 {
     "pages": [
         "home/index",
-        "personal/index",
-        "index/index"
+        "personal/index"
     ]
 }

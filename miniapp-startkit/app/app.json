@@ -1,6 +1,7 @@
 {
   "pages": [
-    "main/tabbar/home/index"
+    "main/tabbar/home/index",
+    "main/tabbar/personal/index"
   ],
   "subpackages": [
     {
@@ -21,6 +22,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Startkit",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#20e42d",
+    "list": [
+      {
+        "pagePath": "main/tabbar/home/index",
+        "text": "首页",
+        "iconPath": "main/tabbar/images/home.png",
+        "selectedIconPath": "main/tabbar/images/home-selected.png"
+      },
+      {
+        "pagePath": "main/tabbar/personal/index",
+        "text": "我的",
+        "iconPath": "main/tabbar/images/personal.png",
+        "selectedIconPath": "main/tabbar/images/personal-selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

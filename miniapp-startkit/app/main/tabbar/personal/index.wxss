@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    padding: 50rpx;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 150rpx;
+    height: 150rpx;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 30rpx;
+}

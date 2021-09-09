@@ -1,0 +1,2 @@
+<view>$$define.route: {{$$define.route}}</view>
+<button style="margin-top: 30rpx" type="primary" bindtap="handleBtnClick">projectA页面</button>
