@@ -1,3 +1,4 @@
-<view>from: {{$$define.query.url}}</view>
-<view>to: {{$$define.route}}</view>
-<button bindtap="handleEmit">Emit</button>
+<view style="margin-bottom: 30rpx">from: {{$$define.query.url}}</view>
+<view style="margin-bottom: 30rpx">to: {{$$define.route}}</view>
+<button style="margin-bottom: 30rpx" bindtap="handleEmit">Emit</button>
+<button bindtap="handleEnterWeb">WebView</button>

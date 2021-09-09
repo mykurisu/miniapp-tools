@@ -1,18 +1,21 @@
 import definePage from '../../lib/definePage'
 import Router from '../../lib/router'
+import EventBus from '../../lib/eventBus'
+import Store from '../../lib/store'
 
 definePage({
     onLoad() {
         console.log(this.data.$$define)
-        const eKey = this._common.events.on('test', (content) => {
+        const eKey = EventBus.on('test', (content) => {
             console.log(content)
-            console.log(this._common.events)
+            console.log(EventBus)
         })
         console.log(eKey)
+        Store.set('HOME_DATA', { a: 1 }, { ttl: 600, isLocal: true })
     },
 
     onShow() {
-        console.log(this.data)
+        console.log(Store.get('HOME_DATA'))
     },
 
     handleBtnClick() {

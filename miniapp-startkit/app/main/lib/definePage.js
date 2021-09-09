@@ -1,5 +1,3 @@
-import events from './eventBus'
-
 const defaultPage = {
     data: {},
     onLoad(options) {
@@ -29,9 +27,6 @@ const definePage = function (page) {
         }
     }
     // ...commonOptions
-    _page._common = {
-        events,
-    }
 
     return Page(_page)
 }

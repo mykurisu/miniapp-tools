@@ -1,5 +1,6 @@
 {
     "pages": [
+        "initial/index",
         "home/index",
         "personal/index"
     ]

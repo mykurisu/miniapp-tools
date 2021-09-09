@@ -1,7 +1,8 @@
 {
   "pages": [
-    "main/tabbar/home/index",
-    "main/tabbar/personal/index"
+    "main/pages/initial/index",
+    "main/pages/home/index",
+    "main/pages/personal/index"
   ],
   "subpackages": [
     {
@@ -27,16 +28,16 @@
     "selectedColor": "#20e42d",
     "list": [
       {
-        "pagePath": "main/tabbar/home/index",
+        "pagePath": "main/pages/home/index",
         "text": "首页",
-        "iconPath": "main/tabbar/images/home.png",
-        "selectedIconPath": "main/tabbar/images/home-selected.png"
+        "iconPath": "main/pages/images/home.png",
+        "selectedIconPath": "main/pages/images/home-selected.png"
       },
       {
-        "pagePath": "main/tabbar/personal/index",
+        "pagePath": "main/pages/personal/index",
         "text": "我的",
-        "iconPath": "main/tabbar/images/personal.png",
-        "selectedIconPath": "main/tabbar/images/personal-selected.png"
+        "iconPath": "main/pages/images/personal.png",
+        "selectedIconPath": "main/pages/images/personal-selected.png"
       }
     ]
   },
