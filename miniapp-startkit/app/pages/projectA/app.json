@@ -1,0 +1,6 @@
+{
+    "root": "pages/projectA",
+    "pages": [
+        "index/index"
+    ]
+}

@@ -1,6 +1,6 @@
 {
   "pages": [
-    "main/pages/index/index"
+    "main/tabbar/home/index"
   ],
   "subpackages": [
     {
